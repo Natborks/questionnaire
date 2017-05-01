@@ -5,7 +5,7 @@ class Analysis
 
 	def read_csv
 		CSV.foreach('Delanyo (1).csv')	do |row|
-			print row #if row[0][0] > 1
+			row.inspect #if row[0][0] > 1
 		end	
 	end
 end
